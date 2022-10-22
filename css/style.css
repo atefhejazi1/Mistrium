@@ -1,0 +1,134 @@
+body {
+  background-color: #fbfbfb;
+}
+.navbar {
+  padding: 38px 0;
+}
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: #000;
+  margin-right: 40px;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .active {
+  border-bottom: 2px solid #000;
+}
+
+.hero-section {
+  padding: 20px 0;
+  overflow-x: hidden;
+}
+
+.hero-section h3 {
+  width: 50%;
+  font-size: 50px;
+  margin-bottom: 30px;
+  color: #292019;
+}
+.hero-section .hero-section-data p {
+  color: #72696a;
+}
+.hero-section .hero-section-data button {
+  padding: 25px 40px;
+  margin-top: 20px;
+  border: 2px solid #c4a586;
+  margin-right: 20px;
+}
+.hero-section .hero-section-data button:nth-of-type(1) {
+  background-color: #c4a586;
+  color: #fff;
+}
+.hero-section .hero-section-data button:nth-of-type(2) {
+  background-color: transparent;
+  color: #c4a586;
+  padding: 25px 50px;
+}
+
+.hero-section .hero-section-image {
+  margin-top: -90px;
+  margin-right: -110px;
+}
+.hero-section .hero-section-image img {
+  width: 120%;
+}
+
+.our-trusted-clients {
+  padding: 40px 0;
+}
+.our-trusted-clients h2 {
+  margin: 40px 0;
+  font-weight: bold;
+}
+
+.our-trusted-clients .our-trusted-clients-items {
+  height: 100%;
+  margin-bottom: 30px;
+}
+
+.brands {
+  margin: 40px 0;
+}
+
+.brands .brands-item {
+  background-color: #fae2c8;
+  padding: 50px 20px;
+  height: 100%;
+  width: 104%;
+  margin-left: -2.5%;
+}
+.brands .brands-item h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.brands .brands-item.custom {
+  background-color: #fcefe9;
+}
+.brands img {
+  width: 100%;
+}
+
+.brands a {
+  margin-top: 70px;
+  display: block;
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+
+.products .filtration {
+  margin-top: 40px;
+}
+.products .filtration a {
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  display: inline-block;
+}
+
+.products .products-item {
+  background-color: #fff4e8;
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 120px;
+}
+
+.products .products-item-data {
+  padding: 100px 20px;
+}
+.products .products-item button {
+  position: absolute;
+  top: -10px;
+  left: 25%;
+  background-color: #d9ab82;
+  color: #fff;
+  padding: 3px 30px;
+  border-radius: 30px;
+  border: 0;
+}
+
+.products .products-item img {
+  width: 50%;
+  position: absolute;
+  bottom: -25%;
+  left: 25%;
+}
